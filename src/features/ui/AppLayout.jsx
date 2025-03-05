@@ -1,5 +1,5 @@
 import { Outlet, useNavigation } from "react-router-dom";
-import Cart from "../cart/Cart";
+import CartOverview from "../cart/CartOverview";
 import Header from "./Header";
 import Loader from "./Loader";
 
@@ -17,7 +17,7 @@ function AppLayout() {
         <Outlet />
       </main>
 
-      <Cart />
+      <CartOverview />
     </div>
   );
 }
